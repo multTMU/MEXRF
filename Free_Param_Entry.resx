@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="OpenFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>394, 17</value>
+  </metadata>
+  <data name="SourceBox1.ToolTip" xml:space="preserve">
+    <value>Select the method to seed files:
+1. Use Last Assay Results:  Allows continuation of fitting where the previous fit left off.
+      Seeds each instance of the KED_FIT with the parameters from the last result file in that directory.
+      Parameters displayed are from the last file in the sequence.
+      The seed parameter files are generated automatically - there is no need to press the accept assay value.
+2. Use First Results File: Seeds each instance of the KED_FIT with the parameters from the first file in the 
+     main screen.
+     The seed parameter files are generated automatically - there is no need to press the accept assay value.
+3. Manual Entry:  Select "Manual Entry"
+                               Enter new parameters
+                               Note:  You may use the other selections to seed the screen for this option  - do not press "Seed Parameters" 
+                               Press "Accept New Values"
+4. Use Generic Seed Values:  Press Accept New Values
+5.  Select Saved Result File
+     Pressing "Seed Parameters" will open a file dialog box allowing a single results file to be opened
+     The final parameters from the result file will be displayed and can be modified.
+     Pressing "Accept New Values" seeds the files to be fitted with these parameters.
+6. Estimate from file: first press the prelim energy calibration and concentration estimate buttons on the main screen.
+    Then return to this screen, 
+       Select "Estimate from spectrum", 
+       Press "Seed Parameters", then 
+       Modify as needed, and 
+       Press "Accept New Values'
+
+
+</value>
+  </data>
+  <data name="Panel1.ToolTip" xml:space="preserve">
+    <value>Energy Offset:  energy calibration constant term
+Energy Slope:  energy calibration slope
+Gaussian Width: width of peaks originating within the
+                           sample vial.   
+                                    FWHM = 2.35 * Gaussian width
+Tail Intensity:             low side tail , relative intensity 
+Tail decay constant:  low side tail decay constant  (1/keV)
+Step Background: relative intensity for low side rectangular
+                             background. 
+Ge escape Intensity: Escape peak relative intensity
+Ref. Peak Width:  Gaussian width of the reference peak 
+Ref. Peak Energy:  Energy of reference peak (e.g. 88.034 keV)
+Ref. Peak Intensity:  Reference peak counts
+</value>
+  </data>
+  <data name="Panel2.ToolTip" xml:space="preserve">
+    <value>Concentration 
+The relative peak intensities are impacted by the sample contents.
+For hybrid measurements – seed from KED results and uncheck all boxes.
+If concentrations are unknown check the box for the major elements and the matrix to let these vary during the fit.
+</value>
+  </data>
+  <data name="Panel3.ToolTip" xml:space="preserve">
+    <value>Random Background Factor:  random bkg correction 
+normalization factor. 
+No fission products: set = 1 and uncheck
+Fission products present: seed =0.5 and check to allow fit
+Linear background terms:  linear background contribution to 
+represent fission product Compton contribution
+No fission products: set = 0 and uncheck
+Fission products present: seed =100 and -0.001 and check to allow fit
+HV Endpoint Energy:  HV generator HV setting (kV). 
+This is normally a free parameter
+Will differ slightly from KED result
+Shaping Parameter: Bremsstrahlung shaping parameter 
+Will differ from KED  value due to backscattering impact (~ KED value ^2)
+Backscatter Intensity: Backscattered Bremsstrahlung source term
+Elastic Scatter Fraction: Bremsstrahlung fraction elastic scattered (arb. units)
+Spline Parameters: Represent the multiple scatter contribution to the background.
+E_ref_1: Reference energy for the first spline 
+Spline A1: Intensity relative to the backscatter intensity for first spline
+E_ref_2: Reference energy for the 2nd spline 
+Spline A2: Intensity relative to the backscatter intensity for 2nd spline
+Spine Tau:  Gaussian smoothing width for the splines
+</value>
+  </data>
+  <data name="Panel5.ToolTip" xml:space="preserve">
+    <value>XRF Intensities
+Each intensity is the sum of collection of peaks counts for a given actinide.
+Note: these are the total counts not the count rates.
+Can be seeded from prior result files or generic parameter file. U and Pu rates may be seeded from the input spectrum file.
+</value>
+  </data>
+  <data name="Panel6.ToolTip" xml:space="preserve">
+    <value>High Side Tail Intensity:             High side tail , relative intensity 
+High Side Tail decay constant:  High side tail decay constant  (1/keV)
+Ref. Peak Step Bkg.:  Step background relative intensity for 
+                                   reference peak.
+Tungsten X-ray Intensity:  counts in W X-ray peaks 
+Lead X-ray Intensity:         counts in Pb X-ray peaks
+Note: the W peaks will not fit well due to the significant scattering
+          within the collimator.
+          the Pb X-rays will originate in the system shielding
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAMDAAAAAACACoDgAAFgAAACgAAAAwAAAAYAAAAAEACAAAAAAAAAkAAAAAAAAAAAAAAAEAAAAB
+        AAAAAAAAQkJCAE1NTQBYWFgAY2JjAG5ubgB5eHgAhIODAKSjpACvrq8Aurm6ANDPzwDU1NQA5uTlAOvr
+        6wDx7/AA9vb2APj4+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8QAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8QAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPHx8fEAAAAA8fEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAADx8fHx8fEAAAAAAAAAAPEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8fHx8vHx
+        AAAAAAAAAAAAAPHxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADx8fLx8gAAAAAAAAAAAAAAAPHx
+        8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPHx8fEA8QAAAAAAAAAAAAAAAPHx8QAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAPEA8fHx8fEA8QAAAAAAAAAAAAAAAPHx8fEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        APHy8QAA8fEA8QAAAAAAAAAAAAAAAPEAAPHxAAAAAAAAAAAAAAAAAAAAAAAAAAAA8fHyAAAAAPEAAAAA
+        AAAAAAAAAAAAAAAAAADx8fEAAAAAAAAAAAAAAAAAAAAAAPHx8fHxAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAPHxAAAAAAAAAAAAAAAAAAAA8fEA8fHxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADx8fEAAAAA
+        AAAAAAAAAADx8fIAAPHxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPHxAAAAAAAAAAAA8fHx8fEA
+        APHxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADx8vHxAAAAAADx8QAAAPEAAPHxAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAA8gDx8fHx8fHxAAAAAPEAAPHxAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAA8gAAAAAA8fEAAAAAAPEAAPHxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAPEAAAAAAPEAAPHxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPEA
+        APHxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPEAAPHxAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADxAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA8fEAAAAAAPHxAPHxAAAAAADx8QDx8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8fEAAAAA
+        APHxAPHxAAAAAPHxAADx8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPHxAAAA8fEAAPHxAAAAAPHx
+        AADx8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADx8QDx8QAAAPHxAAAAAPHxAADx8QAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAA8fHxAAAAAPHx8fHx8fEAAADx8QAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAA8fHxAAAAAPHxAAAAAPHxAADx8fHx8fEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADx8QDx
+        8QAAAPHxAAAAAPHxAADx8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPHxAAAA8fEAAPHxAAAAAPHx
+        AADx8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8fEAAAAAAPHxAPHxAAAAAPHxAADx8QAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA8fEAAAAAAPHxAPHx8fHx8fEAAADx8fHx8fHxAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////AAD///////8AAP///////wAA////////
+        AAD///////8AAP///////wAA7///////AADv/////+EAAOf////8DwAA9/////A/AADz////4P8AAPH/
+        ///C/wAA8f///oL/AADw///+Mv8AAPZ///x7/wAA/x//8H//AAD/z//kf/8AAP/j/8Z//wAA//n/Bn//
+        AAD//D52f/8AAP/+gPZ//wAA//759n//AAD///32f/8AAP////Z//wAA////9n//AAD/////f/8AAP//
+        //9//wAA////////AAD///////8AAP///////wAA////////AAD///////8AAP///////wAA////////
+        AAD///////8AAD5Pk////wAAPk8z////AACczzP///8AAMnPM////wAA48Bz////AADjzzA///8AAMnP
+        M////wAAnM8z////AAA+TzP///8AAD5AcB///wAA////////AAD///////8AAP///////wAA
+</value>
+  </data>
+</root>
